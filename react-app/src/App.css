@@ -1,0 +1,59 @@
+.hero {
+  text-align: center;
+  padding: 80px 24px 48px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-size: 18px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0 24px 48px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 28px 24px;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: var(--shadow);
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.card p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.footer {
+  text-align: center;
+  padding: 32px 24px;
+  border-top: 1px solid var(--border);
+  font-size: 14px;
+  opacity: 0.55;
+}
