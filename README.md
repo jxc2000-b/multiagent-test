@@ -17,10 +17,18 @@ The backend exposes:
 - `GET /api/health`
 - `GET /api/message`
 
+Run backend tests with:
+
+```bash
+cd backend
+pip install -r requirements-dev.txt
+python -m pytest
+```
+
 ### Frontend
 
 ```bash
-cd frontend
+cd react-app
 npm install
 npm run dev
 ```
